@@ -6,11 +6,9 @@ body{
   margin:0;
 }
 .nav{
+    margin: 0 0 30px;
     height : 60px;
-    position:absolute;
-    width:100%;
-    margin : 0;
-    padding: 0;
+    padding: 0px 150px;
     overflow: hidden;
     background-color: #333;
 }
@@ -25,35 +23,19 @@ li a {
   color: white;
   border-right:1px solid white;
 }
-li:first-child {
-    margin-left:150px
-}
+
 
 .divai{
- 
-  padding:10px;
+  margin:20px 150px;
   word-wrap:break-word;
-  margin:15px;
-  position:relative;
-  top:120px;
-  left :250px;
-  height: 100px;
-  width: 700px;
   background-color: white;
   border: 1px solid black;
+  padding: 10px;
 }
-.row{
-  display:flex;
-  padding:10px;
-  word-wrap:break-word;
-  margin:15px;
-  position:relative;
-  top:120px;
-  left :250px;
-  height: 100px;
-  width: 700px;
-  background-color: white;
-  border: 1px solid black;
+.row>div{
+  display:inline-block;
+  width: 45%;
+  padding: auto;
 }
 .divas{
   flex: 50%;
@@ -75,4 +57,9 @@ div>h2{
 p{
   font-size: 15px;
   left: 100px;
+}
+table{
+  width: 100%;
+  text-align: left;
+  padding: 0 20px;
 }
