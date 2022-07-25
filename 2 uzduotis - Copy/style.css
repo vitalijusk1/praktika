@@ -1,0 +1,91 @@
+body,html{
+    padding: 0;
+    margin:0;
+    background-color: gray;
+}
+body{
+  margin:0;
+}
+.nav{
+    height : 60px;
+    position:absolute;
+    width:100%;
+    margin : 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    
+    float: left;
+  }
+li a {
+  height: 60px;
+  display:block;
+  padding: 15px;
+  color: white;
+  border-right:1px solid white;
+}
+li:first-child {
+    margin-left:150px
+}
+.divai{
+  position : absolute;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  display:block;
+  border: 1px solid;
+  padding: 10px;
+  
+}
+
+/* .divai{
+ 
+  padding:10px;
+  word-wrap:break-word;
+  margin:15px;
+  position:relative;
+  top:120px;
+  left :250px;
+  height: 100px;
+  width: 700px;
+  background-color: white;
+  border: 1px solid black;
+} */
+.row{
+  display:flex;
+  padding:10px;
+  word-wrap:break-word;
+  margin:15px;
+  position:relative;
+  top:120px;
+  left :250px;
+  height: 100px;
+  width: 700px;
+  background-color: white;
+  border: 1px solid black;
+}
+.divas{
+  flex: 50%;
+  padding: 10px;
+  height: 15px; /* Should be removed. Only for demonstration */
+  background-color: white;
+}
+
+footer{
+  height: 200px;
+  background-color: black;
+  position:absolute;
+  right: 0;bottom: 0;left: 0;
+}
+div>h2{
+  margin:0;
+  bottom: 15px;
+}
+p{
+  font-size: 15px;
+  left: 100px;
+}
