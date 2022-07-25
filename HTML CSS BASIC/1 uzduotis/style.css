@@ -1,0 +1,87 @@
+button{
+    background-color: #4CAF50; 
+    text-align: center;
+    border: black;
+    color: white;
+    font-size: 12px;
+    width: 15px;
+    height: 26px;
+    border-radius: 50%;
+}
+ul{
+    list-style-type: none;
+}
+table,tr,th,td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    margin : 0px 0 20px 10px;
+}
+th,td{
+    padding : 10px;
+}
+
+tr:first-child{
+    background-color: rgb(100, 100, 248);
+    color: white;
+    border-bottom: 5px solid violet;
+}
+tr:nth-child(even){
+    background-color: red;
+}
+tr:first-child th:first-child {
+    border-radius : 10px;
+}
+tr:first-child th:last-child {
+    border-radius : 10px;
+}  
+fieldset{
+    border:1px solid black;
+    margin: 0px 0 20px 10px;
+    width: 50%;
+}
+legend {
+    margin-left : 20px;
+    margin-bottom: 20px;
+}
+fieldset>div{
+    margin-left : 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+fieldset>div input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%
+}
+fieldset>div select{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%
+}
+
+
+
+.klase>div{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+}
+
+.klase>div:last-child {
+    margin-left: 70%;   
+}
+
+.klase>div:last-child span{
+    display: inline-block;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    margin-left: 54%;   
+}
+
