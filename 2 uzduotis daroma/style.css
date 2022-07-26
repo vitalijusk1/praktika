@@ -49,32 +49,31 @@ table {
 /* ---------------------------------------- */
 header{
     
-  background: black;
-  color: white;
-  font-size: 30px;
+ 
 }
-nav{
-    background-color: black;
-    display: inline-block;
-    width: 100%;
-}
-ul{
-    width: 100%;
 
+ul{
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+     padding: 0;
 }
 a {
-    border-right: 1px solid white;
-    font-size: large;
-    padding: 20px;
     color: white;
-}
+    text-decoration: none;
+} 
 li {
+    text-align: center;
     display: inline-block;
+    padding:20px;
+    color: white;
+    border-right: 1px solid white;
 }
-li:nth-child(1){
-    width: 20%;
-    text-align: right;  
-}
+li:nth-child(1){ 
+    border-right: 1px solid gray; 
+} 
 
 html{
     height:100%;
@@ -122,8 +121,14 @@ div:nth-child(3){
     font-size:0;
     
 }
-div>div{
-    width:45%;
+div:nth-child(1){
+    margin-top: 40px;
+}
+div:nth-child(4){
+    margin-bottom: 40px;
+}
+div>span{
+    width:50%;
     font-size: large;
     text-align: left;
     overflow-wrap: break-word;
@@ -131,4 +136,6 @@ div>div{
     position: relative;
     vertical-align: middle;
     margin:0 auto;
+    padding: 0;
 }
+
