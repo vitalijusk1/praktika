@@ -49,12 +49,62 @@ table {
 
 /*-------------------------*/
 div{
+	width: 80%;
+	font-size: 0;
     margin:0 auto;
-    width: 80%;
     background-color: rgb(217, 217, 217);
 }
+
 div>div{
+	background-color: white;
+	margin:2.5%;
+	text-align: center;
+	font-size: 16px;
     display: inline-block;
-    width: 40%;
-    border: 1px solid black;
+    width: 45%;
+	box-sizing: border-box;
+	border:1px solid gray;
+}
+.melyna{
+	color: aqua;
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 1.5%;
+}
+.oranzine{
+	color: rgb(255, 166, 0);
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 1.5%;
+}
+.pirmasP {
+	font-size: 16px;
+	color: rgba(106, 108, 109, 0.288);
+	font-weight: bold;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+.antrasP{
+	color: gray;
+	font-size: 14px;
+	font-weight: lighter;
+	margin: 18px;
+}
+.melynasB{
+	background-color: aqua;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+	border: none;
+	margin: 5px;
+}
+.oranzinisB{
+	background-color: rgb(255, 166, 0);
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+	border: none;
+	margin: 5px;
 }
