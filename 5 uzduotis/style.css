@@ -1,0 +1,28 @@
+div{
+    border: 1px solid black;
+    margin: 30vh auto;
+	width: 1500px;
+    font-size: 0;
+    height: 20vh;
+    font-size: 0;
+}
+div>div{
+    display: inline-block;
+	width: 500px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: large;
+    overflow: hidden;
+    border: 0;
+}
+p{
+    top:0;
+    left: 0;
+
+}
+.nuotrauka{
+    background-image: url(landscape.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 20vh;
+}
