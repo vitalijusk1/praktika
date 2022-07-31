@@ -1,0 +1,9 @@
+-pirma šrifto linkas poto css
+-max 3 šriftai
+- @media keičia elemento stiliu atitinkamai nuo puslapio esamo dydžio
+- su sass nereikia kalbiataškių su scss reikia
+- su scss galima kurti kintamuosius
+- galima nestinti elementus
+- svarbiausia: nestinimas ir kintamieji
+- pirmiausiai susirasti šriftus
+- kai dedasi ant kažko (logotipai) = png. ,kai nesideda (backgroundai) - jpg.
