@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----------------------------------------*/
+
+section{
+    height: 100vh;
+    width: 100%;
+    
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('work-desk.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    overflow: hidden;
+    
+}
+div{
+    border-radius: 5px;
+      width: 50%;
+      font-size: 0;
+      margin:15vh auto;
+      box-sizing: border-box;
+  }
+  
+  div>div{
+      font-size: 16px;
+      display: inline-block;
+      box-sizing: border-box;
+      
+  }
+  .tekstas{
+    box-sizing: border-box;
+    margin-right: 5%;
+    width: 55%;
+    vertical-align: top;
+  }
+  .tekstas>p{
+    
+    font-size: 16px;
+  }
+  .forma{
+    box-sizing: border-box;
+    width: 40%;
+  }
+
+h1{
+    margin: 5%;
+    font-size: 46px;
+    font-weight: bold;
+}
+h1,p{
+    color: white;
+}
+p{
+    color: gray;
+    margin-left: 5%;
+    margin-top: 2%;
+    line-height: 1.5;
+}
+form>p{
+    color: gray;
+}
+form{
+    display: block;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+  }
+
+  #message{
+    padding-bottom: 20%;
+  }
